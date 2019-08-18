@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Card, CardSection, Input, Button } from "./common";
-import { Picker } from "react-native";
+import { Picker, Text } from "react-native";
 import { employeeUpdate } from "../actions";
 import { connect } from "react-redux";
 
@@ -29,7 +29,7 @@ class EmployeeCreate extends Component {
             }
           />
         </CardSection>
-
+        <Text>Shift day</Text>
         <CardSection>
           <Picker
             style={{ flex: 1 }}

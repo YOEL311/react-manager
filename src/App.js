@@ -5,10 +5,10 @@ import reducers from "./reducers";
 import ReduxThunk from "redux-thunk";
 import firebase from "firebase";
 import Router from "./Router";
-
+import { config } from "../config";
 export default class App extends Component {
   componentDidMount(): void {
-    const config = {
+    const confi2g = {
       apiKey: "AIzaSyBUY0w1ACTmZejX-sj4zfr-Mp3JGw-Vlt0",
       authDomain: "react-manager-ee9f5.firebaseapp.com",
       databaseURL: "https://react-manager-ee9f5.firebaseio.com",
